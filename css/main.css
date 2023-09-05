@@ -1132,6 +1132,7 @@ input::-moz-focus-inner {
 	margin-bottom: 6rem;
 	padding: 0;
 	position: relative;
+	border-radius: .5rem;
 }
 
 .skill-bars li strong {
@@ -1144,12 +1145,14 @@ input::-moz-focus-inner {
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
+	border-radius: .5rem;
 }
 
 .skill-bars li .progress {
 	background: #313131;
 	position: relative;
 	height: 100%;
+	border-radius: .5rem;
 }
 
 .skill-bars li .progress span {
@@ -1874,6 +1877,7 @@ header .logo a {
 
 .button-section .button {
 	width: 250px;
+
 }
 
 .button-section [class*="col-"] .button:first-child {
